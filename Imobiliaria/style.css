@@ -1,0 +1,146 @@
+html, body {
+    margin: 0;
+    font-family: Arial;
+    overflow-x: hidden;
+}
+section {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+}
+span {
+    color: rgb(0, 110, 255);
+    font-weight: bold;
+}
+#topo {
+    background: lightblue;
+    height: 300px;
+}
+#topo img {
+    margin: 30px 0 10px 0;
+    width: 150px;
+    height: 150px;
+}
+#topo ul {
+    margin: 30px 40px 0 0;
+    width: 400px;
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#topo li {
+    color:rgb(0, 110, 255);
+}
+#topo a {
+    font-size: 17px;
+    color:(0, 110, 255);
+    font-weight: bold;
+}
+#banner img {
+    width: 75%;
+    margin: 50px 0px 50px 0px;
+    height: 500px;
+}
+#sobre {
+    height: 600px;
+}
+#sobre h2 {
+    margin-top: 0;
+    color: rgb(0, 110, 255);
+    height: 20px;
+}
+#sobre img {
+    height: 300px;
+    width: 500px;
+}
+#sobre p {
+    color: rgb(26,26,24);
+    width: 70vw;
+    text-align: justify;
+    line-height: 30px;
+}
+#servicos {
+    background: rgb(29, 128, 193);
+    height: 600px;
+    color: white;
+}
+#servicos p {
+    margin-top: 20px;
+    width: 800px;
+    line-height: 1.5;
+    text-align: justify;
+}
+#servicos h2 {
+    margin-top: 50px;
+    display: flex;
+    height: 40px;
+}
+#servicos span {
+    color: rgb(233, 246, 79);
+}
+#servicos ul {
+    font-size: 25px;
+    line-height: 2;
+}
+#corretor {
+    height: 600px;
+}
+#corretor h2 {
+    margin: 70px 0px 0px 0px;
+    color: rgb(0, 110, 255);
+}
+#corretor img {
+    margin: 30px 0 0 0 ;
+    width: 35%;
+}
+#corretor p {
+    margin: 15px 0 0 0;
+    width: 75%;
+    height: 100px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-left: 15px;
+    color: rgb(26,26,24);
+}
+#corretor a {
+    color: blue;
+}
+#contato {
+    background: rgb(29, 128, 193);
+    height: 650px;
+    color: white;
+}
+#contato iframe {
+    width: 50%;
+    height: 60%;
+}
+#contato p {
+    background-color: rgb(44, 44, 44);
+    margin: 30px 0 0 0;
+    padding: 15px 20px
+}
+#contato span {
+    color: rgb(243, 236, 57);
+}
+#contato ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contato li {
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
