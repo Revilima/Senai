@@ -15,29 +15,27 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.começo1 {
-    
+
+.titulo{
     width: 400px;
-    height: 90px;
+    height: 40px;
     padding-top: 5px;
     background-color: black;
     color: white;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
-    
-
 }
-.começo2 {
+.subtitulo {
     width: 400px;
-    height: 50px;
+    height: 8px;
     padding-top: 5px;
-    font-size: 13px;
+    font-size: 20px;
     padding-bottom: 25px;
     background-color: red;
     color: white;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 .elenco {
@@ -48,7 +46,7 @@ body, html {
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-.fundo2 {
+.imagem2 {
 
     background-image: url(imagens/img1.jpg);
     height: 50%;
@@ -67,7 +65,7 @@ body, html {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
 }
-.botaovermelho {
+.quadrado {
 
     height: 70px;
     width: 300px;
